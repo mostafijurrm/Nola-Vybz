@@ -41,5 +41,30 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>BGTaskSchedulerPermittedIdentifiers</key> <array> <string>com.yourCompanyName.appName</string> </array>
+    <key>UIBackgroundModes</key>
+    <array>
+    <string>audio</string>
+    </array>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Need microphone access for uploading videos</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Need camera access for uploading images</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Need location access for updating nearby friends</string>
+    <key>NSLocationAlwaysUsageDescription</key> 
+    <string>we need your Location</string> 
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app will use your location to show cool stuffs near you.
+    </string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Need photo library access for uploading images</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+        <key>NSAllowsArbitraryLoadsForMedia</key>
+        <true/>
+    </dict>
 </dict>
 </plist>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>129143022907-039uqd6e60ci11hl9kp288rd2uecfb6j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.129143022907-039uqd6e60ci11hl9kp288rd2uecfb6j</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>129143022907-kn71goaefr1ed9e4eprta15ppcjhgn0m.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAg3754OJWFh7XpEKRR6ATZ2aNufVMBaTM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>129143022907</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>net.appdevs.nolavybz</string>
+	<key>PROJECT_ID</key>
+	<string>nola-vybz-radio</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nola-vybz-radio.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:129143022907:ios:b8bee67a4a4cba09c6c31e</string>
+</dict>
+</plist>

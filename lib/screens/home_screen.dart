@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:nolavybz/screens/chat/auth/login_screen.dart';
+import 'package:nolavybz/screens/chat/live_chat_screen.dart';
 import 'package:nolavybz/utils/dimensions.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:share/share.dart';
@@ -40,8 +42,6 @@ class _HomeScreenState extends State<HomeScreen>
     super.initState();
 
     initVolumeState();
-    // _play();
-    _getMetadata();
   }
 
 
@@ -66,6 +66,17 @@ class _HomeScreenState extends State<HomeScreen>
                   Strings.appName
               ),
               backgroundColor: CustomColor.secondaryColor,
+              actions: [
+                IconButton(
+                  icon: Icon(
+                    Icons.chat_outlined,
+                    color: Colors.white,
+                  ),
+                  onPressed: () {
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => LiveChatScreen()));
+                  },
+                )
+              ],
             ),
             drawer: getDrawer(),
             backgroundColor: CustomColor.primaryColor,
@@ -412,19 +423,6 @@ class _HomeScreenState extends State<HomeScreen>
         ],
       ),
     )) ?? false;
-  }
-  
-  Future<CustomMetadata> _getMetadata() async {
-    Uri url = Uri.parse('https://stream.upfm.live/api/nowplaying');
-
-    final response = await http.get(url);
-    var data = jsonDecode(response.body);
-
-    setState(() {
-      Strings.songTitle = data[0]['now_playing']['song']['text'];
-    });
-    // print(Strings.songTitle);
-    return CustomMetadata.fromJson(data);
   }
 
 }

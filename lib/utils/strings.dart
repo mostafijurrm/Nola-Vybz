@@ -18,7 +18,7 @@ class Strings {
   static String youTubeUrl = 'https://www.youtube.com/channel/UCia4Skg1T5KmOkR-3K-Ui2A';
   static String share = 'Share';
   static String aboutUs = 'About Us';
-  static String aboutUsDetails = 'The Caribbean lifestyle, soca, dancehall, afrobeats, reggae and latin vibes station of New Orleans.';
+  static String aboutUsDetails = 'The #1 New Orleans Caribbean Radio station playing the best in soca, dancehall, afrobeats, reggae, latin vibes and more plus enlightened discussions about local, caribbean and world culture.';
   static String rateApp = 'Rate App';
 
   static String radioUrl = 'https://s5.radio.co/s21b5e86f2/listen';
@@ -26,4 +26,12 @@ class Strings {
       'https://play.google.com/store/apps/details?id=net.appdevs.nolavybz';
   static String iosAppUrl =
       'https://apps.apple.com/ph/app/nolavybz/id1531759968';
+
+//  chat screen
+  static String login = 'Login';
+  static String register = 'Register';
+  static String pleaseFillOutTheField = 'Please Fill Out The Field';
+  static String enterEmail = 'Enter Email';
+  static String password = 'Password';
+  static String enterPassword = 'Enter Password';
 }

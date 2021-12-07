@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "129143022907",
+    "project_id": "nola-vybz-radio",
+    "storage_bucket": "nola-vybz-radio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129143022907:android:cc03ef15c588b170c6c31e",
+        "android_client_info": {
+          "package_name": "net.appdevs.nolavybz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129143022907-kn71goaefr1ed9e4eprta15ppcjhgn0m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.appdevs.nolavybz",
+            "certificate_hash": "c21d812f0ccddfa52b84edaf373fb662155a1118"
+          }
+        },
+        {
+          "client_id": "129143022907-22ln1pvjanpfd1mk7r65b4iablluqprj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwJzCN39IFoH1n7CK52g5RbpX2SeyzGU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129143022907-22ln1pvjanpfd1mk7r65b4iablluqprj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
